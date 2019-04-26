@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: rgb(223, 222, 222);
+}
+#content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    gap: 10px 10px;
+    grid-template-rows: repeat(3, 400px);
+    grid-template-columns: repeat(3, 1fr); 
+}
+.box{
+    direction: ltr;
+    text-align:left ;
+    color: #fff;
+    font-family: verdana;
+    font-size: 12px;
+}
+.box:hover h3{
+margin-left: 5%;
+cursor:pointer;
+display:block;
+z-index:10;
+transition:all .5s linear;
+
+}
+span{
+    font-family: consolas;
+    color: rgb(189, 189, 189);
+    font-size: 15px;
+}
+.box-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  1;
+    grid-row-end: 2;
+    background:linear-gradient(0deg, rgb(77, 103, 120), rgb(230, 226, 226));
+    margin-right:0%;
+    margin-left:0%;
+    padding-top: 110%;
+    padding-left: 5%;
+}
+.box-2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:  1;
+    grid-row-end: 2;   
+    background:linear-gradient(310deg, rgb(70, 77, 107), rgb(199, 201, 212));
+    margin-right:0%;
+    margin-left:0%;
+    padding-top: 54%;
+    padding-left: 3%;
+}
+.box-3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  2;
+    grid-row-end: 3;
+    background:linear-gradient(30deg, rgb(218, 158, 110), rgb(73, 152, 185));
+    margin-right:-35.47%;
+    margin-left:0%;
+    padding-top: 110%;
+    padding-left: 5%;
+}
+.box-4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:  2;
+    grid-row-end: 3; 
+    background:radial-gradient(250% 40%,rgb(131, 153, 145), rgb(55, 129, 134)); 
+    margin-right:0%;
+    margin-left:35.33%;
+    padding-top: 110%;
+    padding-left: 5%;
+}
+.box-5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:  2;
+    grid-row-end: 3;    
+    background:linear-gradient(0deg, rgb(1, 14, 22), rgb(209, 209, 203)); 
+    margin-right:0%;
+    margin-left:0%;
+    padding-top: 110%;
+    padding-left: 5%;
+ 
+}
+.box-6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:  3;
+    grid-row-end: 4;    
+    background:linear-gradient(0deg, rgb(156, 130, 86), rgb(145, 167, 153), rgb(81, 188, 202)); 
+    margin-right:0%;
+    margin-left:0%;
+    padding-top: 54%;
+    padding-left: 3%;
+}
+.box-7{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:  3;
+    grid-row-end: 4;    
+    background:linear-gradient(0deg, rgb(24, 10, 5),  rgb(104, 94, 86), rgb(184, 187, 192)); 
+    margin-right:0%;
+    margin-left:0%;
+    padding-top: 110%;
+    padding-left: 5%;
+}
